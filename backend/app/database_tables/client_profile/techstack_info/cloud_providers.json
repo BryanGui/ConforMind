@@ -1,0 +1,69 @@
+{
+  "version": "1.0",
+  "last_updated": "2025-01-15",
+  "providers": [
+    {
+      "code": "aws",
+      "name": "Amazon Web Services",
+      "short_description": "Cloud public complet avec services étendus",
+      "category": "public_cloud",
+      "pricing_model": "usage_based"
+    },
+    {
+      "code": "azure",
+      "name": "Microsoft Azure",
+      "short_description": "Cloud public intégré écosystème Microsoft",
+      "category": "public_cloud", 
+      "pricing_model": "usage_based"
+    },
+    {
+      "code": "gcp",
+      "name": "Google Cloud Platform",
+      "short_description": "Cloud public spécialisé data et IA",
+      "category": "public_cloud",
+      "pricing_model": "usage_based"
+    },
+    {
+      "code": "ovh",
+      "name": "OVHcloud",
+      "short_description": "Cloud européen souverain",
+      "category": "public_cloud",
+      "pricing_model": "subscription"
+    },
+    {
+      "code": "digital_ocean",
+      "name": "DigitalOcean",
+      "short_description": "Cloud simple pour développeurs",
+      "category": "public_cloud",
+      "pricing_model": "usage_based"
+    },
+    {
+      "code": "scaleway",
+      "name": "Scaleway",
+      "short_description": "Cloud français économique",
+      "category": "public_cloud",
+      "pricing_model": "usage_based"
+    },
+    {
+      "code": "alibaba_cloud",
+      "name": "Alibaba Cloud",
+      "short_description": "Cloud asiatique leader",
+      "category": "public_cloud",
+      "pricing_model": "usage_based"
+    },
+    {
+      "code": "vmware",
+      "name": "VMware vSphere",
+      "short_description": "Virtualisation entreprise",
+      "category": "private_cloud",
+      "pricing_model": "perpetual"
+    },
+    {
+      "code": "openstack",
+      "name": "OpenStack",
+      "short_description": "Cloud privé open source",
+      "category": "private_cloud",
+      "pricing_model": "open_source"
+    }
+  ]
+}

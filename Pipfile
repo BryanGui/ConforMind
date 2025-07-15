@@ -1,0 +1,20 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+sqlalchemy = "*"
+pandas = "*"
+numpy = "*"
+scikit-learn = "*"
+fastapi = "*"
+uvicorn = "*"
+psutil = "*"
+python-multipart = "*"
+conformind-ai = {file = ".", editable = true}
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"

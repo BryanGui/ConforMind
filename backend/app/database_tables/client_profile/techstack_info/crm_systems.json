@@ -1,0 +1,62 @@
+{
+  "version": "1.0",
+  "last_updated": "2025-01-15",
+  "systems": [
+    {
+      "code": "salesforce",
+      "name": "Salesforce",
+      "short_description": "CRM cloud leader mondial",
+      "category": "crm_cloud",
+      "pricing_model": "subscription"
+    },
+    {
+      "code": "hubspot",
+      "name": "HubSpot",
+      "short_description": "CRM marketing et ventes intégré",
+      "category": "crm_cloud",
+      "pricing_model": "freemium"
+    },
+    {
+      "code": "microsoft_dynamics_crm",
+      "name": "Microsoft Dynamics 365 CRM",
+      "short_description": "CRM intégré écosystème Microsoft",
+      "category": "crm_cloud",
+      "pricing_model": "subscription"
+    },
+    {
+      "code": "pipedrive",
+      "name": "Pipedrive",
+      "short_description": "CRM simple pour équipes commerciales",
+      "category": "crm_cloud",
+      "pricing_model": "subscription"
+    },
+    {
+      "code": "zoho_crm",
+      "name": "Zoho CRM",
+      "short_description": "CRM économique avec suite complète",
+      "category": "crm_cloud",
+      "pricing_model": "subscription"
+    },
+    {
+      "code": "sugarcrm",
+      "name": "SugarCRM",
+      "short_description": "CRM open source personnalisable",
+      "category": "crm_open_source",
+      "pricing_model": "open_source"
+    },
+    {
+      "code": "oracle_cx",
+      "name": "Oracle CX Cloud",
+      "short_description": "Suite expérience client Oracle",
+      "category": "crm_cloud",
+      "pricing_model": "subscription"
+    },
+    {
+      "code": "sap_c4c",
+      "name": "SAP Cloud for Customer",
+      "short_description": "CRM cloud SAP",
+      "category": "crm_cloud",
+      "pricing_model": "subscription"
+    }
+  ]
+}

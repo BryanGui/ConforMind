@@ -1,0 +1,77 @@
+{
+  "version": "1.0",
+  "last_updated": "2025-01-15",
+  "systems": [
+    {
+      "code": "sap_s4hana",
+      "name": "SAP S/4HANA",
+      "short_description": "ERP nouvelle génération SAP",
+      "category": "erp_cloud",
+      "pricing_model": "subscription"
+    },
+    {
+      "code": "sap_ecc",
+      "name": "SAP ECC",
+      "short_description": "ERP SAP traditionnel",
+      "category": "erp_on_premise",
+      "pricing_model": "perpetual"
+    },
+    {
+      "code": "oracle_cloud_erp",
+      "name": "Oracle Cloud ERP",
+      "short_description": "Suite ERP cloud Oracle",
+      "category": "erp_cloud",
+      "pricing_model": "subscription"
+    },
+    {
+      "code": "oracle_ebs",
+      "name": "Oracle E-Business Suite",
+      "short_description": "ERP Oracle traditionnel",
+      "category": "erp_on_premise", 
+      "pricing_model": "perpetual"
+    },
+    {
+      "code": "microsoft_dynamics_365",
+      "name": "Microsoft Dynamics 365",
+      "short_description": "ERP cloud Microsoft",
+      "category": "erp_cloud",
+      "pricing_model": "subscription"
+    },
+    {
+      "code": "microsoft_dynamics_ax",
+      "name": "Microsoft Dynamics AX",
+      "short_description": "ERP Microsoft on-premise",
+      "category": "erp_on_premise",
+      "pricing_model": "perpetual"
+    },
+    {
+      "code": "netsuite",
+      "name": "NetSuite",
+      "short_description": "ERP cloud Oracle pour PME",
+      "category": "erp_cloud",
+      "pricing_model": "subscription"
+    },
+    {
+      "code": "odoo",
+      "name": "Odoo",
+      "short_description": "ERP modulaire open source",
+      "category": "erp_open_source",
+      "pricing_model": "freemium"
+    },
+    {
+      "code": "sage_x3",
+      "name": "Sage X3",
+      "short_description": "ERP entreprise Sage",
+      "category": "erp_on_premise",
+      "pricing_model": "perpetual"
+    },
+    {
+      "code": "workday",
+      "name": "Workday",
+      "short_description": "ERP RH et finance cloud",
+      "category": "erp_cloud",
+      "pricing_model": "subscription"
+    }
+  ]
+}
+

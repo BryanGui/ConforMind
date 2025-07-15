@@ -1,0 +1,14 @@
+# Fichiers Python
+__pycache__/
+*.pyc
+
+# Pipenv
+Pipfile.lock
+
+# Environnement virtuel local
+.env
+.venv/
+
+# Autres fichiers temporaires
+*.log
+*.DS_Store

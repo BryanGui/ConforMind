@@ -1,0 +1,31 @@
+# Configuration Ruff pour ConforMind-AI MVP
+# Ignore les erreurs d'imports liées à notre architecture
+
+[tool.ruff]
+# Ignorer les erreurs d'imports spécifiques au MVP
+ignore = [
+    "E402",  # Module level import not at top of file
+    "F401",  # Module imported but unused (pour les imports conditionnels)
+]
+
+# Dossiers à exclure de l'analyse
+exclude = [
+    ".git",
+    "__pycache__",
+    "venv",
+    ".venv",
+    "node_modules",
+    "build",
+    "dist",
+]
+
+# Longueur ligne (optionnel)
+line-length = 100
+
+# Version Python ciblée
+target-version = "py311"
+
+[tool.ruff.per-file-ignores]
+# Ignorer spécifiquement E402 pour le main.py
+"main.py" = ["E402"]
+"**/main.py" = ["E402"]

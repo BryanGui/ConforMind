@@ -1,0 +1,157 @@
+
+{
+  "version": "1.0",
+  "last_updated": "2025-01-15",
+  "total_certifications": 15,
+  "certifications": 
+  [
+    {
+        "code": "iso_27001",
+        "name": "ISO 27001",
+        "short_description": "Sécurité de l'information",
+        "long_description": "Standard international pour la gestion de la sécurité de l'information. Définit les exigences pour établir, implémenter, maintenir et améliorer continuellement un système de management de la sécurité de l'information.",
+        "category": "security",
+        "sector": "general",
+        "popularity_rank": 1
+    },
+    {
+        "code": "iso_9001",
+        "name": "ISO 9001",
+        "short_description": "Management qualité",
+        "long_description": "Standard international pour les systèmes de management de la qualité. Aide les organisations à démontrer leur capacité à fournir régulièrement des produits et services conformes aux exigences des clients et réglementaires.",
+        "category": "quality",
+        "sector": "general", 
+        "popularity_rank": 3
+    },
+    {
+        "code": "iso_14001",
+        "name": "ISO 14001",
+        "short_description": "Management environnemental",
+        "long_description": "Standard international pour les systèmes de management environnemental. Fournit un cadre que les organisations peuvent suivre pour mettre en place un système de management environnemental efficace.",
+        "category": "environment",
+        "sector": "general",
+        "popularity_rank": 8
+    },
+    {
+        "code": "gdpr_compliance",
+        "name": "GDPR",
+        "short_description": "Protection données EU",
+        "long_description": "Règlement général sur la protection des données. Réglementation européenne sur la protection des données personnelles et la vie privée pour tous les individus au sein de l'Union européenne et de l'Espace économique européen.",
+        "category": "privacy",
+        "sector": "general",
+        "popularity_rank": 2
+    },
+    
+    {
+        "code": "pci_dss",
+        "name": "PCI DSS",
+        "short_description": "Payment Card Industry",
+        "long_description": "Standard de sécurité pour les données de cartes de paiement. Ensemble d'exigences de sécurité conçues pour garantir que toutes les entreprises qui acceptent, traitent, stockent ou transmettent des informations de carte de crédit maintiennent un environnement sécurisé.",
+        "category": "finance",
+        "sector": "banking",
+        "popularity_rank": 4
+    },
+    {
+        "code": "sox_compliance",
+        "name": "SOX",
+        "short_description": "Sarbanes-Oxley (finance US)",
+        "long_description": "Loi américaine sur la réforme de la comptabilité des entreprises publiques et la protection des investisseurs. Établit des normes renforcées pour tous les conseils d'administration, la direction et les cabinets d'expertise comptable des entreprises publiques américaines.",
+        "category": "finance",
+        "sector": "banking",
+        "popularity_rank": 6
+    },
+    {
+        "code": "basel_iii",
+        "name": "Basel III",
+        "short_description": "Réglementation bancaire",
+        "long_description": "Accord de réglementation bancaire internationale qui vise à améliorer la régulation, la supervision et la gestion des risques du secteur bancaire. Renforce les exigences de fonds propres des banques.",
+        "category": "finance",
+        "sector": "banking", 
+        "popularity_rank": 10
+    },
+    {
+        "code": "mifid_ii",
+        "name": "MiFID II",
+        "short_description": "Services financiers EU", 
+        "long_description": "Directive européenne sur les marchés d'instruments financiers. Réglemente les entreprises d'investissement et les marchés financiers dans l'Union européenne, visant à améliorer la protection des investisseurs.",
+        "category": "finance",
+        "sector": "banking",
+        "popularity_rank": 12
+    },
+    
+    {
+        "code": "soc2_type_ii",
+        "name": "SOC 2 Type II",
+        "short_description": "Service Organization Control",
+        "long_description": "Rapport d'audit qui évalue les contrôles internes d'une organisation de services concernant la sécurité, la disponibilité, l'intégrité du traitement, la confidentialité et la vie privée des données clients.",
+        "category": "security",
+        "sector": "technology",
+        "popularity_rank": 5
+    },
+    {
+        "code": "iso_22301",
+        "name": "ISO 22301",
+        "short_description": "Continuité d'activité",
+        "long_description": "Standard international pour les systèmes de management de la continuité d'activité. Aide les organisations à se préparer, répondre et se remettre d'incidents perturbateurs.",
+        "category": "security",
+        "sector": "general",
+        "popularity_rank": 9
+    },
+    
+    {
+        "code": "iso_23053",
+        "name": "ISO/IEC 23053",
+        "short_description": "Framework pour IA",
+        "long_description": "Guide pour l'élaboration d'un framework organisationnel pour l'intelligence artificielle. Fournit des conseils sur la façon dont les organisations peuvent utiliser l'IA de manière responsable.",
+        "category": "ai",
+        "sector": "technology",
+        "popularity_rank": 15
+    },
+    {
+        "code": "iso_23894",
+        "name": "ISO/IEC 23894",
+        "short_description": "Gestion des risques IA",
+        "long_description": "Principes et processus de gestion des risques pour les systèmes d'intelligence artificielle. Fournit un cadre pour identifier, analyser et traiter les risques liés à l'IA.",
+        "category": "ai", 
+        "sector": "technology",
+        "popularity_rank": 18
+    },
+    {
+        "code": "ieee_2857",
+        "name": "IEEE 2857",
+        "short_description": "Éthique dans la conception IA",
+        "long_description": "Standard pour l'éthique dans la conception de systèmes d'intelligence artificielle. Fournit des principes directeurs pour intégrer des considérations éthiques dans le processus de conception des systèmes d'IA.",
+        "category": "ai",
+        "sector": "technology", 
+        "popularity_rank": 20
+    },
+    {
+        "code": "hipaa_compliance",
+        "name": "HIPAA",
+        "short_description": "Protection santé US",
+        "long_description": "Loi américaine sur la portabilité et la responsabilité de l'assurance maladie. Établit des normes nationales pour protéger les informations médicales sensibles des patients.",
+        "category": "healthcare",
+        "sector": "healthcare",
+        "popularity_rank": 7
+    },
+    {
+        "code": "iec_62304",
+        "name": "IEC 62304",
+        "short_description": "Dispositifs médicaux logiciels",
+        "long_description": "Standard international pour les processus de cycle de vie des logiciels de dispositifs médicaux. Définit les exigences de sécurité pour le développement de logiciels médicaux.",
+        "category": "healthcare",
+        "sector": "healthcare",
+        "popularity_rank": 16
+    },
+    
+    {
+        "code": "automotive_spice",
+        "name": "Automotive SPICE",
+        "short_description": "Processus automobile",
+        "long_description": "Modèle de référence pour l'évaluation et l'amélioration des processus de développement de logiciels dans l'industrie automobile. Basé sur ISO 15504.",
+        "category": "automotive",
+        "sector": "automotive",
+        "popularity_rank": 17
+    }
+]
+}

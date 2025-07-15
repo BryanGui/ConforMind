@@ -1,0 +1,229 @@
+{
+  "version": "1.0",
+  "last_updated": "2025-01-15",
+  "description": "Référentiel des domaines d'expertise IA et compliance pour autocomplete",
+  "total_domains": 25,
+  "categories": {
+    "ai_technical": "Expertise technique IA",
+    "compliance_regulatory": "Conformité réglementaire", 
+    "business_management": "Management et business",
+    "security_privacy": "Sécurité et confidentialité"
+  },
+  "expertise_domains": [
+    {
+      "code": "machine_learning",
+      "name": "Machine Learning",
+      "category": "ai_technical",
+      "description": "Développement et déploiement de modèles ML",
+      "related_roles": ["data_scientist", "ml_engineer", "ai_researcher"],
+      "popularity_rank": 1
+    },
+    {
+      "code": "deep_learning",
+      "name": "Deep Learning",
+      "category": "ai_technical", 
+      "description": "Réseaux de neurones profonds et architectures avancées",
+      "related_roles": ["ai_researcher", "ml_engineer"],
+      "popularity_rank": 2
+    },
+    {
+      "code": "natural_language_processing",
+      "name": "Natural Language Processing",
+      "category": "ai_technical",
+      "description": "Traitement automatique du langage naturel",
+      "related_roles": ["nlp_engineer", "data_scientist"],
+      "popularity_rank": 3
+    },
+    {
+      "code": "computer_vision",
+      "name": "Computer Vision",
+      "category": "ai_technical",
+      "description": "Vision par ordinateur et analyse d'images",
+      "related_roles": ["cv_engineer", "ai_researcher"],
+      "popularity_rank": 4
+    },
+    {
+      "code": "mlops_devops",
+      "name": "MLOps / DevOps",
+      "category": "ai_technical",
+      "description": "Opérationnalisation et industrialisation des modèles ML",
+      "related_roles": ["mlops_engineer", "devops_engineer"],
+      "popularity_rank": 5
+    },
+    
+    {
+      "code": "eu_ai_act",
+      "name": "EU AI Act",
+      "category": "compliance_regulatory",
+      "description": "Réglementation européenne sur l'intelligence artificielle",
+      "related_roles": ["compliance_officer", "legal_counsel", "dpo"],
+      "popularity_rank": 6
+    },
+    {
+      "code": "gdpr_privacy",
+      "name": "GDPR / Protection des données",
+      "category": "compliance_regulatory",
+      "description": "Réglementation GDPR et protection de la vie privée",
+      "related_roles": ["dpo", "privacy_officer", "legal_counsel"],
+      "popularity_rank": 7
+    },
+    {
+      "code": "ai_ethics",
+      "name": "Éthique de l'IA",
+      "category": "compliance_regulatory",
+      "description": "Principes éthiques et IA responsable",
+      "related_roles": ["ethics_officer", "ai_ethicist"],
+      "popularity_rank": 8
+    },
+    {
+      "code": "risk_assessment",
+      "name": "Évaluation des risques",
+      "category": "compliance_regulatory",
+      "description": "Analyse et gestion des risques liés à l'IA",
+      "related_roles": ["risk_manager", "compliance_officer"],
+      "popularity_rank": 9
+    },
+    {
+      "code": "bias_fairness",
+      "name": "Biais et équité algorithmique",
+      "category": "compliance_regulatory",
+      "description": "Détection et mitigation des biais dans les algorithmes",
+      "related_roles": ["fairness_engineer", "data_scientist"],
+      "popularity_rank": 10
+    },
+    {
+      "code": "regulatory_affairs",
+      "name": "Affaires réglementaires",
+      "category": "compliance_regulatory",
+      "description": "Veille et conformité réglementaire générale",
+      "related_roles": ["regulatory_affairs", "compliance_officer"],
+      "popularity_rank": 11
+    },
+    
+    {
+      "code": "model_governance",
+      "name": "Gouvernance des modèles",
+      "category": "business_management",
+      "description": "Gouvernance et lifecycle des modèles IA",
+      "related_roles": ["model_risk_manager", "ai_governance"],
+      "popularity_rank": 12
+    },
+    {
+      "code": "project_management",
+      "name": "Gestion de projet",
+      "category": "business_management",
+      "description": "Management de projets IA et transformation digitale",
+      "related_roles": ["project_manager", "program_manager"],
+      "popularity_rank": 13
+    },
+    {
+      "code": "change_management",
+      "name": "Conduite du changement",
+      "category": "business_management",
+      "description": "Accompagnement transformation et adoption IA",
+      "related_roles": ["change_manager", "transformation_lead"],
+      "popularity_rank": 14
+    },
+    {
+      "code": "business_analysis",
+      "name": "Analyse métier",
+      "category": "business_management",
+      "description": "Analyse des besoins et requirements métier",
+      "related_roles": ["business_analyst", "product_owner"],
+      "popularity_rank": 15
+    },
+    {
+      "code": "vendor_management",
+      "name": "Gestion fournisseurs",
+      "category": "business_management",
+      "description": "Sélection et gestion des prestataires IA",
+      "related_roles": ["vendor_manager", "procurement"],
+      "popularity_rank": 16
+    },
+    {
+      "code": "training_education",
+      "name": "Formation et sensibilisation",
+      "category": "business_management",
+      "description": "Formation des équipes sur l'IA et la compliance",
+      "related_roles": ["training_manager", "l&d_specialist"],
+      "popularity_rank": 17
+    },
+    
+    {
+      "code": "cybersecurity",
+      "name": "Cybersécurité",
+      "category": "security_privacy",
+      "description": "Sécurité des systèmes et infrastructure IA",
+      "related_roles": ["security_engineer", "ciso"],
+      "popularity_rank": 18
+    },
+    {
+      "code": "data_privacy",
+      "name": "Confidentialité des données",
+      "category": "security_privacy",
+      "description": "Protection et anonymisation des données sensibles",
+      "related_roles": ["privacy_engineer", "dpo"],
+      "popularity_rank": 19
+    },
+    {
+      "code": "adversarial_ai",
+      "name": "IA adversariale",
+      "category": "security_privacy",
+      "description": "Sécurité contre les attaques adversariales",
+      "related_roles": ["security_researcher", "ai_security"],
+      "popularity_rank": 20
+    },
+    {
+      "code": "explainable_ai",
+      "name": "IA explicable",
+      "category": "ai_technical",
+      "description": "Interprétabilité et explicabilité des modèles",
+      "related_roles": ["xai_researcher", "data_scientist"],
+      "popularity_rank": 21
+    },
+    {
+      "code": "automated_decision_making",
+      "name": "Prise de décision automatisée",
+      "category": "compliance_regulatory",
+      "description": "Systèmes de décision automatique et supervision humaine",
+      "related_roles": ["ai_governance", "compliance_officer"],
+      "popularity_rank": 22
+    },
+    {
+      "code": "data_quality",
+      "name": "Qualité des données",
+      "category": "ai_technical",
+      "description": "Gestion et validation de la qualité des données",
+      "related_roles": ["data_engineer", "data_steward"],
+      "popularity_rank": 23
+    },
+    {
+      "code": "technical_documentation",
+      "name": "Documentation technique",
+      "category": "business_management",
+      "description": "Rédaction et maintenance de la documentation IA",
+      "related_roles": ["technical_writer", "documentation_specialist"],
+      "popularity_rank": 24
+    },
+    {
+      "code": "audit_compliance",
+      "name": "Audit et conformité",
+      "category": "compliance_regulatory",
+      "description": "Audit interne et externe des systèmes IA",
+      "related_roles": ["internal_auditor", "compliance_auditor"],
+      "popularity_rank": 25
+    }
+  ],
+  
+  "usage_examples": {
+    "single_domain": "machine_learning",
+    "multiple_domains": ["machine_learning", "eu_ai_act", "bias_fairness"],
+    "with_custom": ["machine_learning", "custom_automotive_ai", "proprietary_nlp"]
+  },
+  
+  "notes": {
+    "extensibility": "Ce fichier peut être étendu sans modification de code",
+    "custom_domains": "Les domaines custom peuvent être ajoutés dans additional_expertise_domains",
+    "validation": "main_expertise_domain utilise l'enum, additional_expertise_domains accepte tout JSON"
+  }
+}

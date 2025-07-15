@@ -1,0 +1,62 @@
+{
+  "version": "1.0",
+  "last_updated": "2025-01-15",
+  "tools": [
+    {
+      "code": "datadog",
+      "name": "Datadog",
+      "short_description": "Monitoring et observabilité cloud",
+      "category": "apm_monitoring",
+      "pricing_model": "usage_based"
+    },
+    {
+      "code": "new_relic",
+      "name": "New Relic",
+      "short_description": "Monitoring performance applications",
+      "category": "apm_monitoring",
+      "pricing_model": "subscription"
+    },
+    {
+      "code": "splunk",
+      "name": "Splunk",
+      "short_description": "Analyse logs et données machine",
+      "category": "log_management",
+      "pricing_model": "usage_based"
+    },
+    {
+      "code": "elk_stack",
+      "name": "ELK Stack",
+      "short_description": "Elasticsearch, Logstash, Kibana",
+      "category": "log_management",
+      "pricing_model": "open_source"
+    },
+    {
+      "code": "prometheus",
+      "name": "Prometheus",
+      "short_description": "Monitoring système open source",
+      "category": "infrastructure_monitoring",
+      "pricing_model": "open_source"
+    },
+    {
+      "code": "grafana",
+      "name": "Grafana",
+      "short_description": "Visualisation métriques et dashboards",
+      "category": "visualization",
+      "pricing_model": "freemium"
+    },
+    {
+      "code": "nagios",
+      "name": "Nagios",
+      "short_description": "Monitoring infrastructure traditionnel",
+      "category": "infrastructure_monitoring",
+      "pricing_model": "open_source"
+    },
+    {
+      "code": "zabbix",
+      "name": "Zabbix",
+      "short_description": "Monitoring entreprise open source",
+      "category": "infrastructure_monitoring",
+      "pricing_model": "open_source"
+    }
+  ]
+}
